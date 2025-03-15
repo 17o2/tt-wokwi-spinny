@@ -417,6 +417,20 @@
             "top": -278.4,
             "left": 518.4,
             "attrs": {}
+        },
+        {
+            "type": "wokwi-mux-2",
+            "id": "mux17",
+            "top": -86.4,
+            "left": 508.8,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gnd",
+            "id": "gnd15",
+            "top": 19.2,
+            "left": 489,
+            "attrs": {}
         }
     ],
     "connections": [
@@ -1467,6 +1481,42 @@
         [
             "mux15:A",
             "mux14:B",
+            "green",
+            [
+                "h0"
+            ]
+        ],
+        [
+            "mux17:OUT",
+            "ttout:OUT7",
+            "green",
+            [
+                "v0",
+                "h57.6",
+                "v-48"
+            ]
+        ],
+        [
+            "ttin:IN7",
+            "mux17:SEL",
+            "green",
+            [
+                "h364.8",
+                "v76.8"
+            ]
+        ],
+        [
+            "mux17:B",
+            "ttin:CLK",
+            "green",
+            [
+                "h-19.2",
+                "v-144"
+            ]
+        ],
+        [
+            "mux17:A",
+            "gnd15:GND",
             "green",
             [
                 "h0"
