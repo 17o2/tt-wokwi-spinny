@@ -23,8 +23,8 @@
         {
             "type": "wokwi-gnd",
             "id": "pwr2",
-            "top": -76.8,
-            "left": 565.8,
+            "top": -28.8,
+            "left": 901.8,
             "attrs": {}
         },
         {
@@ -37,8 +37,8 @@
         {
             "type": "wokwi-7segment",
             "id": "sevseg1",
-            "top": -183.24,
-            "left": 552.28,
+            "top": -187.02,
+            "left": 936.28,
             "attrs": {
                 "common": "cathode"
             }
@@ -103,7 +103,7 @@
             "type": "board-tt-block-output",
             "id": "ttout",
             "top": -208.93,
-            "left": 360,
+            "left": 715.2,
             "attrs": {
                 "verilogRole": "output"
             }
@@ -283,6 +283,111 @@
             "id": "not2",
             "top": -259.2,
             "left": 172.8,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-not",
+            "id": "not4",
+            "top": 537.6,
+            "left": -364.8,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-mux-2",
+            "id": "mux7",
+            "top": 499.2,
+            "left": -230.4,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-mux-2",
+            "id": "mux8",
+            "top": 576,
+            "left": -230.4,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-mux-2",
+            "id": "mux9",
+            "top": 672,
+            "left": -230.4,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-mux-2",
+            "id": "mux10",
+            "top": 768,
+            "left": -230.4,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-mux-2",
+            "id": "mux11",
+            "top": 864,
+            "left": -230.4,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-mux-2",
+            "id": "mux12",
+            "top": 950.4,
+            "left": -220.8,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-not",
+            "id": "not6",
+            "top": 720,
+            "left": -364.8,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-not",
+            "id": "not7",
+            "top": 912,
+            "left": -374.4,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gnd",
+            "id": "gnd9",
+            "top": 537.6,
+            "left": -259.8,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gnd",
+            "id": "gnd10",
+            "top": 633.6,
+            "left": -269.4,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gnd",
+            "id": "gnd11",
+            "top": 710.4,
+            "left": -259.8,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gnd",
+            "id": "gnd12",
+            "top": 816,
+            "left": -259.8,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gnd",
+            "id": "gnd13",
+            "top": 912,
+            "left": -259.8,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gnd",
+            "id": "gnd14",
+            "top": 998.4,
+            "left": -259.8,
             "attrs": {}
         }
     ],
@@ -967,18 +1072,6 @@
             ]
         ],
         [
-            "flop2:Q",
-            "flop6:D",
-            "green",
-            [
-                "v0",
-                "h19.2",
-                "v144",
-                "h-441.6",
-                "v-115.2"
-            ]
-        ],
-        [
             "ttin:RST_N",
             "not2:IN",
             "green",
@@ -997,6 +1090,257 @@
                 "v28.8",
                 "h-57.6",
                 "v144"
+            ]
+        ],
+        [
+            "flop2:Q",
+            "flop3:D",
+            "green",
+            [
+                "v0"
+            ]
+        ],
+        [
+            "flop5:Q",
+            "flop6:D",
+            "green",
+            [
+                "v0",
+                "h28.8",
+                "v124.8",
+                "h-844.8",
+                "v-96"
+            ]
+        ],
+        [
+            "not4:OUT",
+            "mux8:B",
+            "green",
+            [
+                "v0"
+            ]
+        ],
+        [
+            "not6:OUT",
+            "mux10:B",
+            "green",
+            [
+                "v0"
+            ]
+        ],
+        [
+            "not7:OUT",
+            "mux12:B",
+            "green",
+            [
+                "v0"
+            ]
+        ],
+        [
+            "not6:IN",
+            "mux9:B",
+            "green",
+            [
+                "v0"
+            ]
+        ],
+        [
+            "not4:IN",
+            "mux7:B",
+            "green",
+            [
+                "v0"
+            ]
+        ],
+        [
+            "not7:IN",
+            "mux11:B",
+            "green",
+            [
+                "v0"
+            ]
+        ],
+        [
+            "mux7:A",
+            "gnd9:GND",
+            "green",
+            [
+                "h0"
+            ]
+        ],
+        [
+            "mux8:A",
+            "gnd10:GND",
+            "green",
+            [
+                "h0"
+            ]
+        ],
+        [
+            "mux9:A",
+            "gnd11:GND",
+            "green",
+            [
+                "h0"
+            ]
+        ],
+        [
+            "mux10:A",
+            "gnd12:GND",
+            "green",
+            [
+                "h0"
+            ]
+        ],
+        [
+            "mux11:A",
+            "gnd13:GND",
+            "green",
+            [
+                "h0"
+            ]
+        ],
+        [
+            "mux12:A",
+            "gnd14:GND",
+            "green",
+            [
+                "h0"
+            ]
+        ],
+        [
+            "mux6:SEL",
+            "mux7:SEL",
+            "green",
+            [
+                "v0"
+            ]
+        ],
+        [
+            "mux7:SEL",
+            "mux8:SEL",
+            "green",
+            [
+                "v0"
+            ]
+        ],
+        [
+            "mux8:SEL",
+            "mux9:SEL",
+            "green",
+            [
+                "v0"
+            ]
+        ],
+        [
+            "mux9:SEL",
+            "mux10:SEL",
+            "green",
+            [
+                "v0"
+            ]
+        ],
+        [
+            "mux10:SEL",
+            "mux11:SEL",
+            "green",
+            [
+                "v0"
+            ]
+        ],
+        [
+            "mux11:SEL",
+            "mux12:SEL",
+            "green",
+            [
+                "v0"
+            ]
+        ],
+        [
+            "mux7:OUT",
+            "flop3:S",
+            "green",
+            [
+                "v0",
+                "h508.8",
+                "v-441.6"
+            ]
+        ],
+        [
+            "mux8:OUT",
+            "flop3:R",
+            "green",
+            [
+                "v0",
+                "h499.2"
+            ]
+        ],
+        [
+            "mux9:OUT",
+            "flop4:S",
+            "green",
+            [
+                "v0",
+                "h643.2",
+                "v-614.4",
+                "h28.8"
+            ]
+        ],
+        [
+            "mux10:OUT",
+            "flop4:R",
+            "green",
+            [
+                "v0",
+                "h432"
+            ]
+        ],
+        [
+            "mux11:OUT",
+            "flop5:S",
+            "green",
+            [
+                "v0",
+                "h787.2",
+                "v-566.4"
+            ]
+        ],
+        [
+            "mux12:OUT",
+            "flop5:R",
+            "green",
+            [
+                "v-9.6",
+                "h931.2",
+                "v-604.8",
+                "h-115.2"
+            ]
+        ],
+        [
+            "ttin:IN3",
+            "not4:IN",
+            "green",
+            [
+                "h-595.2",
+                "v556.8"
+            ]
+        ],
+        [
+            "ttin:IN4",
+            "not6:IN",
+            "green",
+            [
+                "h-576",
+                "v825.6"
+            ]
+        ],
+        [
+            "ttin:IN5",
+            "not7:IN",
+            "green",
+            [
+                "h-672",
+                "v729.6"
             ]
         ]
     ],
