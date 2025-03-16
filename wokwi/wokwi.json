@@ -698,6 +698,36 @@
             "top": 1958.4,
             "left": 239.4,
             "attrs": {}
+        },
+        {
+            "type": "wokwi-7segment",
+            "id": "sevseg2",
+            "top": 2020.98,
+            "left": 1291.48,
+            "attrs": {
+                "common": "cathode"
+            }
+        },
+        {
+            "type": "wokwi-gnd",
+            "id": "gnd4",
+            "top": 2188.8,
+            "left": 1305,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gate-or-2",
+            "id": "or1",
+            "top": 1891.2,
+            "left": 998.4,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-gnd",
+            "id": "gnd14",
+            "top": 2025.6,
+            "left": -0.6,
+            "attrs": {}
         }
     ],
     "connections": [
@@ -2696,6 +2726,113 @@
                 "v-1516.8",
                 "h508.8",
                 "v-134.4"
+            ]
+        ],
+        [
+            "sevseg2:COM.1",
+            "gnd4:GND",
+            "green",
+            [
+                "h0"
+            ]
+        ],
+        [
+            "flop7:Q",
+            "sevseg2:A",
+            "green",
+            [
+                "v0",
+                "h931.2"
+            ]
+        ],
+        [
+            "flop8:Q",
+            "sevseg2:B",
+            "green",
+            [
+                "v0",
+                "h1056",
+                "v259.2"
+            ]
+        ],
+        [
+            "flop10:Q",
+            "sevseg2:E",
+            "green",
+            [
+                "v0",
+                "h748.8",
+                "v124.8",
+                "h201.6"
+            ]
+        ],
+        [
+            "flop11:Q",
+            "sevseg2:D",
+            "green",
+            [
+                "v0",
+                "h883.2"
+            ]
+        ],
+        [
+            "flop12:Q",
+            "sevseg2:C",
+            "green",
+            [
+                "v0",
+                "h1075.2",
+                "v-201.6",
+                "h-48"
+            ]
+        ],
+        [
+            "flop14:Q",
+            "sevseg2:F",
+            "green",
+            [
+                "v0",
+                "h816",
+                "v-672",
+                "h67.2"
+            ]
+        ],
+        [
+            "or1:OUT",
+            "sevseg2:G",
+            "green",
+            [
+                "v0",
+                "h134.4",
+                "v115.2"
+            ]
+        ],
+        [
+            "flop9:Q",
+            "or1:A",
+            "green",
+            [
+                "v0",
+                "h585.6",
+                "v38.4"
+            ]
+        ],
+        [
+            "flop13:Q",
+            "or1:B",
+            "green",
+            [
+                "v9.6",
+                "h393.6",
+                "v-585.6"
+            ]
+        ],
+        [
+            "mux36:A",
+            "gnd14:GND",
+            "green",
+            [
+                "h0"
             ]
         ]
     ],
