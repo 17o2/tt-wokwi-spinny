@@ -432,7 +432,7 @@
             "top": 67.2,
             "left": 182.4,
             "attrs": {
-                "text": "4/6 segment spinny\nshift register"
+                "text": "circle spinner\n(4 or 6 segment)"
             }
         },
         {
@@ -816,6 +816,33 @@
             "top": 566.4,
             "left": 1075.2,
             "attrs": {}
+        },
+        {
+            "type": "wokwi-text",
+            "id": "text14",
+            "top": -681.6,
+            "left": 1324.8,
+            "attrs": {
+                "text": "choose between circle spinner or figure 8 spinner"
+            }
+        },
+        {
+            "type": "wokwi-text",
+            "id": "text15",
+            "top": 1440,
+            "left": 172.8,
+            "attrs": {
+                "text": "figure 8 spinner"
+            }
+        },
+        {
+            "type": "wokwi-text",
+            "id": "text16",
+            "top": 1814.4,
+            "left": 912,
+            "attrs": {
+                "text": "center segment is used twice in the figure 8"
+            }
         }
     ],
     "connections": [
