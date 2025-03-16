@@ -23,8 +23,8 @@
         {
             "type": "wokwi-gnd",
             "id": "pwr2",
-            "top": -76.8,
-            "left": 2217,
+            "top": -67.2,
+            "left": 2188.2,
             "attrs": {}
         },
         {
@@ -38,7 +38,7 @@
             "type": "wokwi-7segment",
             "id": "sevseg1",
             "top": -177.42,
-            "left": 2203.48,
+            "left": 2174.68,
             "attrs": {
                 "common": "cathode"
             }
@@ -748,13 +748,6 @@
             "attrs": {}
         },
         {
-            "type": "wokwi-gnd",
-            "id": "gnd15",
-            "top": 633.6,
-            "left": 1391.4,
-            "attrs": {}
-        },
-        {
             "type": "wokwi-text",
             "id": "text7",
             "top": -633.6,
@@ -818,31 +811,10 @@
             }
         },
         {
-            "type": "wokwi-pushbutton",
-            "id": "btn3",
-            "top": 563,
-            "left": 1497.6,
-            "attrs": {
-                "color": "grey",
-                "label": "RESET",
-                "bounce": "0",
-                "key": "r"
-            }
-        },
-        {
-            "type": "wokwi-resistor",
-            "id": "r1",
-            "top": 579.95,
-            "left": 1372.8,
-            "attrs": {
-                "value": "1000"
-            }
-        },
-        {
-            "type": "wokwi-vcc",
-            "id": "pwr4",
-            "top": 547.96,
-            "left": 1603.2,
+            "type": "wokwi-gate-and-2",
+            "id": "and1",
+            "top": 566.4,
+            "left": 1075.2,
             "attrs": {}
         }
     ],
@@ -2997,37 +2969,32 @@
             ]
         ],
         [
+            "and1:OUT",
             "mux43:SEL",
-            "r1:1",
             "green",
             [
-                "v0"
+                "v0",
+                "h230.4"
             ]
         ],
         [
-            "r1:2",
-            "gnd15:GND",
+            "ttin:IN3",
+            "and1:A",
             "green",
             [
-                "v0"
+                "h1392",
+                "v604.8",
+                "h-134.4",
+                "v86.4"
             ]
         ],
         [
-            "r1:1",
-            "btn3:1.l",
+            "ttin:IN5",
+            "and1:B",
             "green",
             [
-                "v-28.8",
-                "h9.6"
-            ]
-        ],
-        [
-            "btn3:2.r",
-            "pwr4:VCC",
-            "green",
-            [
-                "h48.2",
-                "v0.2"
+                "h998.4",
+                "v720"
             ]
         ]
     ],
