@@ -1,28 +1,27 @@
 # Tiny Tapeout project information (Wokwi project)
 project:
-  wokwi_id:     425498675799185409       # Set this to the ID of your Wokwi project (the number from the project's URL)
-  title:        "spinny"      # Project title
-  author:       "Daniel Rojas"      # Your name
-  discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  "Configurable spinner on 7 segment display"      # One line description of what your project does
-  language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
-  clock_hz:     4       # Clock frequency in Hz (or 0 if not applicable)
+  wokwi_id: 425498675799185409 # Set this to the ID of your Wokwi project (the number from the project's URL)
+  title: "spinny" # Project title
+  author: "Daniel Rojas" # Your name
+  discord: "17o2_" # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
+  description: "Configurable spinner on 7 segment display" # One line description of what your project does
+  language: "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
+  clock_hz: 4 # Clock frequency in Hz (or 0 if not applicable)
 
   # How many tiles your design occupies? A single tile is about 167x108 uM.
-  tiles: "1x1"          # Valid values: 1x1, 1x2, 2x2, 3x2, 4x2, 6x2 or 8x2
-
+  tiles: "1x1" # Valid values: 1x1, 1x2, 2x2, 3x2, 4x2, 6x2 or 8x2
 
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 pinout:
   # Inputs
-  ui[0]: "InitA"
-  ui[1]: "InitB"
-  ui[2]: "InitC"
-  ui[3]: "InitD"
-  ui[4]: "InitE"
-  ui[5]: "InitF"
+  ui[0]: "Seg0"
+  ui[1]: "Seg1"
+  ui[2]: "Seg2"
+  ui[3]: "Seg3_or_Fig8"
+  ui[4]: "Seg4_or_TopOrBottom"
+  ui[5]: "BigOrSmall"
   ui[6]: "Direction"
-  ui[7]: ""
+  ui[7]: "ShowClk"
 
   # Outputs
   uo[0]: "OutA"
