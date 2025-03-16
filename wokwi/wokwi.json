@@ -165,7 +165,7 @@
             "type": "wokwi-text",
             "id": "text1",
             "top": -403.2,
-            "left": 1209.6,
+            "left": 1766.4,
             "attrs": {
                 "text": "horizontal flip"
             }
@@ -713,6 +713,55 @@
             "top": 2025.6,
             "left": -0.6,
             "attrs": {}
+        },
+        {
+            "type": "wokwi-mux-2",
+            "id": "mux37",
+            "top": -604.8,
+            "left": 1353.6,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-mux-2",
+            "id": "mux38",
+            "top": -518.4,
+            "left": 1353.6,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-mux-2",
+            "id": "mux39",
+            "top": -422.4,
+            "left": 1353.6,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-mux-2",
+            "id": "mux40",
+            "top": -326.4,
+            "left": 1353.6,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-mux-2",
+            "id": "mux41",
+            "top": 288,
+            "left": 1353.6,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-mux-2",
+            "id": "mux42",
+            "top": 384,
+            "left": 1353.6,
+            "attrs": {}
+        },
+        {
+            "type": "wokwi-mux-2",
+            "id": "mux43",
+            "top": 489.6,
+            "left": 1363.2,
+            "attrs": {}
         }
     ],
     "connections": [
@@ -1234,8 +1283,7 @@
             "mux1:A",
             "green",
             [
-                "v0",
-                "h57.6",
+                "h595.2",
                 "v-326.4"
             ]
         ],
@@ -1244,9 +1292,8 @@
             "mux3:A",
             "green",
             [
-                "v0",
-                "h96",
-                "v-67.2"
+                "h633.6",
+                "v-76.8"
             ]
         ],
         [
@@ -1254,8 +1301,7 @@
             "mux3:B",
             "green",
             [
-                "v0",
-                "h105.6",
+                "h643.2",
                 "v-163.2"
             ]
         ],
@@ -1264,8 +1310,7 @@
             "mux1:B",
             "green",
             [
-                "v0",
-                "h76.8",
+                "h604.8",
                 "v-556.8"
             ]
         ],
