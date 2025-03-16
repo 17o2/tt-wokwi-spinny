@@ -488,6 +488,33 @@
             "top": -259.2,
             "left": 210.6,
             "attrs": {}
+        },
+        {
+            "type": "wokwi-text",
+            "id": "text3",
+            "top": -393.6,
+            "left": 211.2,
+            "attrs": {
+                "text": "clock output on decimal point"
+            }
+        },
+        {
+            "type": "wokwi-text",
+            "id": "text4",
+            "top": 57.6,
+            "left": 192,
+            "attrs": {
+                "text": "6 segment spinny shift register"
+            }
+        },
+        {
+            "type": "wokwi-text",
+            "id": "text5",
+            "top": 76.8,
+            "left": -86.4,
+            "attrs": {
+                "text": "data latch in"
+            }
         }
     ],
     "connections": [
@@ -922,15 +949,6 @@
                 "v0",
                 "h38.4",
                 "v134.4"
-            ]
-        ],
-        [
-            "ttin:IN6",
-            "ttout:OUT6",
-            "green",
-            [
-                "h998.4",
-                "v38.4"
             ]
         ],
         [
