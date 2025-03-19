@@ -7,7 +7,7 @@ You can also include images in this folder and reference them in the markdown. E
 512 kb in size, and the combined size of all images must be less than 1 MB.
 -->
 
-# TinyTapeout 7-Segment Spinner
+# Tiny Tapeout 7-Segment Spinner
 
 ![](animations/l.gif)
 ![](animations/e200.gif)
