@@ -1,0 +1,15 @@
+To generate the segment animations used in the readme, copy & paste the lines below into this tool and save the generated images:
+https://www.geocachingtoolbox.com/index.php?lang=en&page=segmentDisplay
+
+A B C D E F 
+AF FE ED DC CB BA 
+
+A B G F 
+
+GCD CDE DEG EGC 
+
+BGE GED EDC DCG CGF GFA FAB ABG 
+
+A F G C D E G B 
+
+AD BE CF

@@ -7,6 +7,17 @@ You can also include images in this folder and reference them in the markdown. E
 512 kb in size, and the combined size of all images must be less than 1 MB.
 -->
 
+# TinyTapeout 7-Segment Spinner
+
+![](animations/l.gif)
+![](animations/e200.gif)
+![](animations/b166.gif)
+![](animations/d117.gif)
+![](animations/ee66.gif)
+![](animations/t33.gif)
+![](animations/ll133.gif)
+
+
 ## How it works
 
 Use the 8-pin DIP switch to create various spinning animations on the 7-segment display.
@@ -35,12 +46,16 @@ https://wokwi.com/projects/425498675799185409
 
 #### Large circle spinner
 
+![](animations/l.gif)
+
 This spinner uses the six outer segments for the spinner.
 
 - Set switch 6 to 0.
 - Use switches 1 through 5 to configure which segments should start lit up. Segment 6 will always be off.
 
 #### Small circle spinner
+
+![](animations/t.gif)
 
 This spinner uses the top or bottom four segments for the spinner.
 
@@ -50,6 +65,8 @@ This spinner uses the top or bottom four segments for the spinner.
 - Use switches 1 through 3 to configure which segments should start lit up. Segment 4 will always be off.
 
 #### Figure 8 spinner
+
+![](animations/e.gif)
 
 This spinner uses all seven segments for the spinner.
 - Set switch 6 to 1.
